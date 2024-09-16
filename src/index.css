@@ -1,0 +1,105 @@
+
+
+
+/* Applique une police globale et un style de fond */
+ body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f0f2f5;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+
+ /* Conteneur de l'application */
+ div {
+   background-color: white;
+   padding: 30px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   width: 400px;
+   max-width: 100%;
+ }
+
+ /* Titre principal */
+ h1 {
+   text-align: center;
+   color: #333;
+   margin-bottom: 20px;
+ }
+
+ /* Style pour l'input */
+ input[type="text"] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   transition: border-color 0.3s;
+ }
+
+ /* Changement de la couleur de la bordure de l'input lors du focus */
+ input[type="text"]:focus {
+   border-color: #007bff;
+   outline: none;
+ }
+
+ /* Style pour le bouton Ajouter */
+ button {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+
+ /* Changement de couleur du bouton lors du hover */
+ button:hover {
+   background-color: #0056b3;
+ }
+
+ /* Liste des notes */
+ ul {
+   padding: 0;
+   margin: 0;
+ }
+
+ /* Style de chaque élément de la liste */
+ li {
+   list-style-type: none;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px 20px;
+   background-color: #f9f9f9;
+   border: 1px solid #e0e0e0;
+   border-radius: 4px;
+   transition: background-color 0.3s;
+ }
+
+ /* Changement de fond de chaque note au hover */
+ li:hover {
+   background-color: #f1f1f1;
+ }
+
+ /* Bouton supprimer */
+ li button {
+   background-color: #dc3545;
+   padding: 6px 12px;
+   border-radius: 3px;
+   border: none;
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+
+ /* Changement de couleur du bouton supprimer au hover */
+ li button:hover {
+   background-color: #c82333;
+ }
